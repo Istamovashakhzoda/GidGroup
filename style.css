@@ -44,10 +44,6 @@
   height: 29px;
   margin-right: 120px;
 }
-@font-face {
-  font-family: Regular;
-  src: url(./fonts/Poppins/Poppins-Regular.ttf);
-}
 .mainImage p {
   text-align: center;
   position: absolute;
@@ -94,14 +90,19 @@
   top: 546px;
 }
 
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
 .about {
   position: absolute;
-  width: 1280px;
-  height: 172px;
-  margin-left: 30px;
+  width: 1320px;
+  height: 182px;
+  display: flex;
+  margin-left: 20px;
   margin-top: 60px;
   background-color: #F2F2F2;
-  font-family: Regular;
+  font-family: sans-serif;
 }
 .about h1 {
   width: 145px;
@@ -113,7 +114,7 @@
   line-height: 75px;
 }
 .about__back {
-  width: 520px;
+  align-items: center;
   display: flex;
   margin-left: 100px;
 }
@@ -126,7 +127,7 @@
   width: 50px;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 23px;
   margin-left: 20px;
   color: #0E0E0E;
 }
@@ -137,6 +138,81 @@
   font-size: 15px;
   line-height: 21px;
   color: #0E0E0E;
+}
+.about .box-2 {
+  margin-left: 0;
+}
+.about .box-2__back {
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+}
+.about .box-2__back {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+}
+.about .box-2__back p {
+  width: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  margin-left: 20px;
+  color: #0E0E0E;
+}
+.about .box-3__back {
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+}
+.about .box-3__back {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+}
+.about .box-3__back p {
+  width: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  margin-left: 20px;
+  color: #0E0E0E;
+}
+.about .box-4__back {
+  align-items: center;
+  display: flex;
+  margin-left: 100px;
+}
+.about .box-4__back {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+}
+.about .box-4__back p {
+  width: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  margin-left: 20px;
+  color: #0E0E0E;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-top: 340px;
+  margin-left: 40px;
+  font-size: 38px;
+  color: #000000;
+  line-height: 56px;
+}
+
+.linee {
+  width: 200px;
+  height: 6px;
+  margin-left: 0;
+  margin-top: 20px;
+  background: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
