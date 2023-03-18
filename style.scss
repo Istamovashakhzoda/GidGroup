@@ -51,12 +51,12 @@
 }
 
 @font-face {
-  font-family: Thin;
-  src: url(./fonts/Poppins/Poppins-Thin.ttf);
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
 }
 
 p{
-  font-family: Thin;
+  // font-family: Thin;
   text-align: center;
   position: absolute;
   font-weight:100;
@@ -106,5 +106,53 @@ width: 4px;
 height: 70px;
 left: 660px;
 top: 546px;
+}
+}
+
+.about{
+  position: absolute;
+  width: 1280px;
+  height: 172px;
+  margin-left: 30px;
+  margin-top: 60px;
+  background-color: #F2F2F2;
+  font-family: Regular;
+
+ h1{
+width: 145px;
+height: 75px;
+margin-top: 5px;
+margin-left: 100px;
+font-weight: 400;
+font-size: 40px;
+line-height: 75px;
+}
+
+&__back{
+  width: 520px;
+  display: flex;
+  margin-left: 100px;
+}
+&__back{
+  width: 16px;
+  height: 16px;
+  background-color: black;
+}
+&__back p{
+  width: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 20px;
+  color: #0E0E0E;;
+}
+
+.robo {
+  margin-top: 22px;
+  margin-left: 100px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #0E0E0E;;
 }
 }
