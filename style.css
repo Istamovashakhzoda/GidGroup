@@ -255,5 +255,34 @@ h3 {
   width: 507px;
   height: 313px;
 }
+.right__img {
+  width: 84px;
+  height: 68px;
+  margin-right: 0;
+  position: absolute;
+  right: 210px;
+  margin-top: 36px;
+}
+
+.right h3 {
+  position: absolute;
+  right: 404px;
+  margin-right: 0;
+  margin-top: 410px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 147.19%;
+}
+
+.right p {
+  position: absolute;
+  right: 290px;
+  margin-right: 0;
+  margin-top: 475px;
+  font-weight: 300;
+  font-size: 23px;
+}
 
 /*# sourceMappingURL=style.css.map */
