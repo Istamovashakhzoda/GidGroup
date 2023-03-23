@@ -603,9 +603,18 @@ h2 {
   line-height: 30px;
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Bold.ttf);
+}
+h5 {
+  font-family: Roboto;
+}
+
 .picturee {
   margin-top: 40px;
   margin-left: 65px;
+  font-family: Roboto;
 }
 
 .picturee img {
