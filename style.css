@@ -533,4 +533,84 @@ h2 {
   filter: brightness(0.2);
 }
 
+.filters button {
+  position: absolute;
+  right: 139px;
+  top: 1555px;
+  margin-top: 1200px;
+  width: 234px;
+  height: 55px;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+.texts {
+  display: flex;
+}
+
+.text1 {
+  margin-left: 0;
+}
+
+.text1 h5 {
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.text1 p {
+  color: #4F4F4F;
+  line-height: 30px;
+}
+
+.text2 {
+  margin-left: 0;
+}
+
+.text2 h5 {
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.text2 p {
+  color: #4F4F4F;
+  line-height: 30px;
+}
+
+.text3 {
+  margin-left: 0;
+}
+
+.text3 h5 {
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.text3 p {
+  color: #4F4F4F;
+  line-height: 30px;
+}
+
+.picturee {
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.picturee img {
+  width: 406px;
+  height: 457px;
+}
+
 /*# sourceMappingURL=style.css.map */
