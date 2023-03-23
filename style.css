@@ -613,4 +613,70 @@ h2 {
   height: 457px;
 }
 
+.sutruct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text4 {
+  margin-left: 0;
+}
+
+.text4 h5 {
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.text4 p {
+  color: #4F4F4F;
+  line-height: 30px;
+}
+
+.text5 {
+  margin-left: 60px;
+}
+
+.text5 h5 {
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.text5 p {
+  color: #4F4F4F;
+  line-height: 30px;
+}
+
+.text6 {
+  margin-left: 0;
+}
+
+.text6 h5 {
+  font-family: Regular;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.text6 p {
+  color: #4F4F4F;
+  line-height: 30px;
+}
+
+.vector {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 11px 55px;
+  background: #000000;
+  border: 1px solid #000000;
+}
+
 /*# sourceMappingURL=style.css.map */
