@@ -750,3 +750,48 @@ color: #4F4F4F;
     background: #000000;
     }
     
+  .xab{
+    display: flex;
+    margin: 0 auto;
+  
+    &--nubm {
+      display: flex;
+      justify-content: space-between;
+    }
+
+     &__send h5 {
+      // position: absolute;
+      // left: 0;
+      margin-left: 0;
+      width: 73px;
+      height: 93px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 145.69%;
+      color: #000000;
+     }
+
+    .sariq{
+      display: inline;
+      font-family: Roboto;
+      font-weight: 900;
+      font-size: 30px;
+      color: black;
+      border: none;
+      width: 163px;
+      height: 52px;
+      background-color: #faff09;
+    }
+    &__send p{
+      width: 387px;
+      height: 164px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 147.69%;
+      color: #4F4F4F;
+    }
+  }
