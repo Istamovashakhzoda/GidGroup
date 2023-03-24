@@ -1178,15 +1178,20 @@ h5 {
 
 .startimg img {
   margin-top: 75px;
-  width: 690px;
-  height: 450px;
+  width: 660px;
+  height: 410px;
   margin-left: 0;
+  position: absolute;
+  left: 0;
 }
 
 .rightside img {
-  width: 160px;
-  height: 140px;
-  margin-top: 80px;
+  position: absolute;
+  left: 390px;
+  width: 113px;
+  height: 106px;
+  margin-top: 40px;
+  margin-left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
