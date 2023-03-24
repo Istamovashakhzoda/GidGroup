@@ -28,15 +28,29 @@
   margin-left: 100px;
   margin-top: 36px;
 }
+ .subst{
+  margin-top: 0;
+  margin-right: 299px;
+  position: absolute;
+  right: 440px;
+  top: 21px;
+ }
+
+ @font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Bold.ttf);
+ }
 
 &__icons h6{
-  margin-right: 152px;
-  text-align: center;
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  right: 672px;
   align-items: center;
-  font-family: Poppins;
+  font-family:Roboto;
   color: white;
-  font-weight: 100;
-  font-size: 44px;
+  font-weight: 900;
+  font-size: 40px;
   line-height: 96px;
 }
 
