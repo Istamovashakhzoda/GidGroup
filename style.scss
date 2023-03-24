@@ -874,7 +874,7 @@ color: #4F4F4F;
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
-      font-size: 14px;
+      font-size: 10px;
       line-height: 147.69%;
       text-decoration-line: underline;
       color: #000000;
@@ -903,4 +903,12 @@ color: #4F4F4F;
       text-decoration-line: underline;
       color: #000000;
      }
+  }
+     
+  .line0{
+    margin-left: 0;
+    margin-top: 30px;
+    width: 1339px;
+    height: 0px;
+    border: 1px dashed #000000;
   }
