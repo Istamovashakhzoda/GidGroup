@@ -718,6 +718,7 @@ h5 {
   margin-left: 75px;
 }
 .xab .sariq {
+  margin-top: 22px;
   display: block;
   margin-left: 0;
   font-family: Roboto;
@@ -730,6 +731,7 @@ h5 {
   background-color: #faff09;
 }
 .xab__send p {
+  margin-top: 15px;
   width: 387px;
   height: 164px;
   font-family: "Roboto";
@@ -746,12 +748,14 @@ h5 {
   font-weight: 900;
   font-size: 30px;
   color: black;
+  margin-top: 22px;
   border: none;
   width: 163px;
   height: 52px;
   background-color: #faff09;
 }
 .xab__sub p {
+  margin-top: 15px;
   width: 387px;
   height: 164px;
   font-family: "Roboto";
@@ -771,6 +775,7 @@ h5 {
   border: none;
   width: 163px;
   height: 52px;
+  margin-top: 22px;
   background-color: #faff09;
 }
 .xab .calcula p {
@@ -782,6 +787,7 @@ h5 {
   font-size: 21px;
   line-height: 147.69%;
   color: #4F4F4F;
+  margin-top: 15px;
 }
 
 .overa {
@@ -857,6 +863,41 @@ h5 {
   width: 1339px;
   height: 0px;
   border: 1px dashed #000000;
+}
+
+.pens {
+  display: flex;
+  margin-left: 65px;
+  margin-top: 60px;
+}
+.pens .sariq {
+  display: block;
+  margin-left: 0;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 30px;
+  color: black;
+  border: none;
+  width: 163px;
+  height: 52px;
+  background-color: #faff09;
+}
+.pens p {
+  margin-top: 15px;
+  width: 387px;
+  height: 164px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 147.69%;
+  color: #4F4F4F;
+}
+
+.ruka {
+  position: absolute;
+  right: 363px;
+  margin-top: 19px;
 }
 
 /*# sourceMappingURL=style.css.map */

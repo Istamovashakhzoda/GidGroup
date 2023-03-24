@@ -756,6 +756,7 @@ color: #4F4F4F;
     margin-top: 60px;
     margin-left: 75px;
     .sariq{
+      margin-top: 22px;
       display: block;
       margin-left: 0;
       font-family: Roboto;
@@ -768,6 +769,7 @@ color: #4F4F4F;
       background-color: #faff09;
     }
     &__send p{
+      margin-top: 15px;
       width: 387px;
       height: 164px;
       font-family: 'Roboto';
@@ -786,6 +788,7 @@ color: #4F4F4F;
       font-weight: 900;
       font-size: 30px;
       color: black;
+      margin-top: 22px;
       border: none;
       width: 163px;
       height: 52px;
@@ -793,6 +796,7 @@ color: #4F4F4F;
     }
 
      p{
+      margin-top: 15px;
       width: 387px;
       height: 164px;
       font-family: 'Roboto';
@@ -816,6 +820,7 @@ color: #4F4F4F;
       border: none;
       width: 163px;
       height: 52px;
+      margin-top: 22px;
       background-color: #faff09;
     }
     p{
@@ -827,6 +832,7 @@ color: #4F4F4F;
       font-size: 21px;
       line-height: 147.69%;
       color: #4F4F4F;
+      margin-top: 15px;
     }
    }
   }
@@ -911,4 +917,39 @@ color: #4F4F4F;
     width: 1339px;
     height: 0px;
     border: 1px dashed #000000;
+  }
+
+  .pens{
+    display: flex;
+      margin-left: 65px;
+      margin-top: 60px;
+    .sariq{
+      display: block;
+      margin-left: 0;
+      font-family: Roboto;
+      font-weight: 900;
+      font-size: 30px;
+      color: black;
+      border: none;
+      width: 163px;
+      height: 52px;
+      background-color: #faff09;
+    }
+    p{
+      margin-top: 15px;
+      width: 387px;
+      height: 164px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 147.69%;
+      color: #4F4F4F;
+    }
+  }
+
+  .ruka{
+     position: absolute;
+     right: 363px;
+     margin-top: 19px;
   }
