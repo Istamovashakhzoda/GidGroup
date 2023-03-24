@@ -1170,12 +1170,10 @@ h5 {
   font-size: 18px;
 }
 
-.startimg {
-  background-image: url(./images/Rectangle\ 56.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 550px;
-  height: 600px;
+.startimg img {
+  margin-top: 75px;
+  width: 650px;
+  height: 450px;
   margin-left: 0;
   margin-bottom: 0;
 }
