@@ -1170,11 +1170,23 @@ h5 {
   font-size: 18px;
 }
 
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+}
+
 .startimg img {
   margin-top: 75px;
-  width: 650px;
+  width: 690px;
   height: 450px;
   margin-left: 0;
+}
+
+.rightside img {
+  width: 160px;
+  height: 140px;
+  margin-top: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */
