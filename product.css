@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1400px;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins/Poppins-Bold.ttf);
+}
+.mainImage__icons {
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+}
+.mainImage__icons img {
+  width: 30px;
+  height: 22px;
+  margin-left: 100px;
+  margin-top: 36px;
+}
+.mainImage .subst {
+  margin-top: 0;
+  margin-right: 299px;
+  position: absolute;
+  right: 440px;
+  top: 21px;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Bold.ttf);
+}
+.mainImage__icons h6 {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  right: 672px;
+  align-items: center;
+  font-family: Roboto;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 96px;
+}
+.mainImage__icons span {
+  font-size: 26px;
+}
+.mainImage .telep {
+  width: 29px;
+  height: 29px;
+  margin-right: 120px;
+}
+
+.glav {
+  margin: 6px 0 0 50px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.glav span {
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.btns {
+  display: flex;
+  text-align: center;
+  width: 440px;
+}
+
+.btn1 button {
+  width: 200px;
+  height: 58px;
+  background: #000000;
+  border: none;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn2 button {
+  box-sizing: border-box;
+  width: 200px;
+  height: 58px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  color: #4F4F4F;
+}
+
+.background {
+  margin-top: 30px;
+  background-image: url(./images/LIVING_02\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1351px 750px;
+  width: 1351px;
+  height: 750px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Thin.ttf);
+}
+.boxc {
+  width: 375px;
+  height: 243px;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+  color: #FFFFFF;
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.boxc h3 {
+  font-size: 33px;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+.mainInfor {
+  margin-top: 60px;
+  display: flex;
+}
+
+.left h1 {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.left p {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 53px;
+  color: #828282;
+}
+
+.left {
+  border-right: 1px solid #E0E0E0;
+}
+
+.right p {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 147.19%;
+  color: #444343;
+}
+
+.grid {
+  display: flex;
+  margin-top: 50px;
+  gap: 1px;
+}
+
+.gridImg1 img {
+  width: 670px;
+  height: 600px;
+}
+
+.gridImg2 img {
+  width: 670px;
+  height: 600px;
+}
+
+.gridImg3 img {
+  width: 1350px;
+  height: 650px;
+  margin-top: 10px;
+}
+
+.information {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.child1 h2 {
+  font-family: Regular;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.child2 {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 147.19%;
+  color: #4F4F4F;
+}
+
+/*# sourceMappingURL=product.css.map */
