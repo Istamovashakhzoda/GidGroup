@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1400px;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins/Poppins-Bold.ttf);
+}
+.mainImage__icons {
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+}
+.mainImage__icons img {
+  width: 30px;
+  height: 22px;
+  margin-left: 100px;
+  margin-top: 36px;
+}
+.mainImage .subst {
+  margin-top: 0;
+  margin-right: 299px;
+  position: absolute;
+  right: 440px;
+  top: 21px;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Bold.ttf);
+}
+.mainImage__icons h6 {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  right: 672px;
+  align-items: center;
+  font-family: Roboto;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 96px;
+}
+.mainImage__icons span {
+  font-size: 26px;
+}
+.mainImage .telep {
+  width: 29px;
+  height: 29px;
+  margin-right: 120px;
+}
+
+.glav {
+  margin: 6px 0 0 50px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.glav span {
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.btns {
+  display: flex;
+  text-align: center;
+  width: 440px;
+}
+
+.btn1 button {
+  width: 200px;
+  height: 58px;
+  background: #000000;
+  border: none;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn2 button {
+  box-sizing: border-box;
+  width: 200px;
+  height: 58px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  color: #4F4F4F;
+}
+
+.divss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 26px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Thin.ttf);
+}
+.zero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 84px;
+  color: #000000;
+  margin-top: 0;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins/Poppins-Bold.ttf);
+}
+.about {
+  margin-top: 10px;
+}
+
+.about h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+.about h5 {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 48px;
+  color: #4F4F4F;
+}
+
+.about p {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4F4F4F;
+}
+
+.rightSide {
+  background-image: url(./images/Rectangle\ 110.png);
+  background-repeat: no-repeat;
+  background-size: 350px 200px;
+  width: 450px;
+  height: 400px;
+  margin-top: 40px;
+  margin-right: 0;
+}
+
+.inside h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.inside p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-left: 50px;
+  margin-top: 40px;
+  position: absolute;
+  top: 240px;
+}
+
+.drawPicture {
+  display: flex;
+  margin-left: 40px;
+  margin-top: -156px;
+}
+
+.img1 img {
+  width: 860px;
+  height: 520px;
+}
+
+.img2 img {
+  width: 420px;
+  height: 520px;
+}
+
+.nextSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers {
+  width: 550px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.aboutt h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+.aboutt h5 {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 48px;
+  color: #4F4F4F;
+}
+
+.aboutt p {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4F4F4F;
+}
+
+.rightSide {
+  background-image: url(./images/Rectangle\ 110.png);
+  background-repeat: no-repeat;
+  background-size: 350px 200px;
+  width: 450px;
+  height: 400px;
+  margin-top: 40px;
+  margin-right: 0;
+}
+
+.insidee {
+  margin-left: 0;
+}
+
+.insidee h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.insidee p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-left: 50px;
+}
+
+/*# sourceMappingURL=progress.css.map */
