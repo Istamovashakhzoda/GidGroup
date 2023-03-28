@@ -108,8 +108,8 @@ body {
 }
 
 @font-face {
-  font-family: Roboto;
-  src: url(./fonts/Poppins/Roboto/Roboto-Thin.ttf);
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
 }
 .boxc {
   width: 375px;
@@ -120,7 +120,7 @@ body {
   margin-right: 0;
   color: #FFFFFF;
   font-style: normal;
-  font-family: Roboto;
+  font-family: Regular;
   font-size: 19px;
   line-height: 42px;
   color: #FFFFFF;
@@ -140,7 +140,7 @@ body {
 }
 
 .left h1 {
-  font-family: Regular;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 39px;
