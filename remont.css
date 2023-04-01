@@ -78,12 +78,13 @@ body {
   font-weight: 300;
   font-size: 80px;
   line-height: 94px;
-  color: white;
-  filter: blur(9.1);
+  color: #FFFFFF;
+  filter: brightness(9.99);
   margin-top: 0;
   position: absolute;
   top: 190px;
-  margin-left: 550px;
+  margin-left: 400px;
+  z-index: 100;
 }
 
 .circleImg {
@@ -92,14 +93,18 @@ body {
   height: 70px;
   background-color: #000000;
   border-radius: 40px;
-  filter: brightness(8.1);
 }
 
 .circleImg img {
   width: 25px;
   height: 25px;
   margin-top: 22px;
-  margin-left: 22px;
+  margin-left: 24px;
+  filter: brightness(9.1);
+}
+
+.input h1 {
+  color: #FFFFFF;
 }
 
 .about {

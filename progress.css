@@ -63,6 +63,15 @@ body {
   font-size: 12px;
   line-height: 16px;
   color: #828282;
+  display: flex;
+  width: 150px;
+}
+
+.glav a {
+  text-decoration: none;
+  color: #828282;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .glav span {
@@ -79,13 +88,13 @@ body {
 .btn1 button {
   width: 200px;
   height: 58px;
-  background: #000000;
-  border: none;
+  background: #FFFFFF;
+  border: 1px solid #000000;
   font-style: normal;
   font-size: 15px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #4F4F4F;
 }
 
 .btn2 button {
@@ -93,8 +102,15 @@ body {
   width: 200px;
   height: 58px;
   border: 1px solid #000000;
-  background: #FFFFFF;
-  color: #4F4F4F;
+  background: #000000;
+  color: white;
+}
+
+.btn2 a {
+  text-decoration: none;
+  color: #828282;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .divss {
@@ -197,7 +213,7 @@ body {
 
 .drawPicture {
   display: flex;
-  margin-left: 40px;
+  margin-left: -160px;
   margin-top: -156px;
 }
 
@@ -569,11 +585,6 @@ body {
   font-size: 14px;
   line-height: 196.19%;
   color: #F2F2F2;
-}
-
-.telegrap {
-  background: #000;
-  border-radius: 10px;
 }
 
 .inter {

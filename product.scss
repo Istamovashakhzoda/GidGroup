@@ -75,9 +75,11 @@ body{
   color: #828282;
 }
 
-.glav span{
-  font-weight: 900;
-  font-size: 14px;
+.glav a{
+  text-decoration: none;
+  color: #828282;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .btns{
@@ -106,7 +108,15 @@ body{
   background: #FFFFFF;
   color: #4F4F4F;
 }
-
+.btn2 a{
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #4F4F4F;
+  text-decoration: none;
+}
 .background{
   margin-top: 30px;
   background-image: url(./images/LIVING_02\ 1.png);
@@ -417,11 +427,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 196.19%;
 color: #F2F2F2;
-}
-
-.telegrap{
-background: #000;
-border-radius: 10px;
 }
 
 .inter{

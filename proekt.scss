@@ -66,18 +66,23 @@ body{
 }
 
 .glav{
+  width: 120px;
   margin: 6px 0 0 50px;
   font-family:sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 16px;
   color: #828282;
+  display: flex;
 }
 
-.glav span{
-  font-weight: 900;
-  font-size: 14px;
+.glav a{
+  text-decoration: none;
+  color: #828282;
+  font-size: 12px;
+  font-weight: 700;
 }
+
 
 .btns{
   text-align: center;
@@ -120,7 +125,8 @@ body{
  width: 234px;
  height: 55px;
  border: 1px solid #FFFFFF;
- background-color: rgba(0, 0, 0, 0.8);;
+ background-color: rgba(0, 0, 0, 0.8);
+ color: #FFFFFF;
 }
 
 @font-face {
@@ -435,11 +441,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 196.19%;
 color: #F2F2F2;
-}
-
-.telegrap{
-background: #000;
-border-radius: 10px;
 }
 
 .inter{
