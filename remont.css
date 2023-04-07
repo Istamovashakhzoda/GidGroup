@@ -107,111 +107,6 @@ body {
   color: #FFFFFF;
 }
 
-.about {
-  position: absolute;
-  width: 1351px;
-  height: 182px;
-  display: flex;
-  background-color: #F2F2F2;
-  font-family: sans-serif;
-}
-.about h1 {
-  width: 145px;
-  height: 75px;
-  margin-top: 5px;
-  margin-left: 0px;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 75px;
-}
-.about__back {
-  align-items: center;
-  display: flex;
-  margin-left: 0px;
-  position: absolute;
-  left: 0;
-}
-.about__back {
-  width: 16px;
-  height: 16px;
-  background-color: black;
-  margin-left: 0px;
-}
-.about__back p {
-  position: relative;
-  left: 0;
-  width: 150px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  margin-left: 0px;
-  color: #0E0E0E;
-}
-.about .robo {
-  margin-top: 22px;
-  margin-left: 100px;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 21px;
-  color: #0E0E0E;
-}
-.about .box-2 {
-  margin-left: 0;
-}
-.about .box-2__back {
-  align-items: center;
-  display: flex;
-  margin-top: 50px;
-}
-.about .box-2__back {
-  width: 16px;
-  height: 16px;
-  background-color: black;
-}
-.about .box-2__back p {
-  width: 50px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  margin-left: 20px;
-  color: #0E0E0E;
-}
-.about .box-3__back {
-  align-items: center;
-  display: flex;
-}
-.about .box-3__back {
-  width: 16px;
-  height: 16px;
-  background-color: black;
-}
-.about .box-3__back p {
-  width: 50px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  margin-left: 20px;
-  color: #0E0E0E;
-}
-.about .box-4__back {
-  margin-top: 50px;
-  align-items: center;
-  display: flex;
-}
-.about .box-4__back {
-  width: 16px;
-  height: 16px;
-  background-color: black;
-}
-.about .box-4__back p {
-  width: 290px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  margin-left: 20px;
-  color: #0E0E0E;
-}
-
 h2 {
   font-family: sans-serif;
   font-weight: 100;
@@ -262,8 +157,8 @@ h2 {
   font-family: poppins;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 1px;
   color: #4F4F4F;
 }
 
@@ -283,12 +178,13 @@ h2 {
 }
 
 .no2 p {
+  width: 198px;
   margin-top: 30px;
   font-family: poppins;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 5px;
   color: #4F4F4F;
 }
 
@@ -308,12 +204,13 @@ h2 {
 }
 
 .no3 p {
+  width: 229px;
   margin-top: 30px;
   font-family: poppins;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 12px;
   color: #4F4F4F;
 }
 
