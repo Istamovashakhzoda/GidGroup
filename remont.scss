@@ -150,7 +150,6 @@ background: #000000;
 .childs{
   margin-top:80px;
   display: flex;
-  // justify-content: space-between;
 }
 
 .no1 img{
@@ -282,7 +281,12 @@ background: #000000;
  width: 234px;
  height: 55px;
  border: 1px solid #FFFFFF;
- background-color: rgba(0, 0, 0, 0.8);;
+ background-color: rgba(0, 0, 0, 0.8);
+ color: white;
+}
+
+.filters button:hover{
+  cursor: pointer;
 }
 
 @font-face {
@@ -607,6 +611,11 @@ background: #000000;
   padding: 11px 55px;
   background: #000000;
   border: 1px solid #000000;
+  color: white;
+}
+
+.vector{
+  cursor: pointer;
 }
 
 .constructorSection{
