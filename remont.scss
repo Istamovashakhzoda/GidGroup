@@ -756,3 +756,243 @@ background: #000000;
   height: 20px;
  }
 
+
+ @font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Roboto/Roboto-Regular.ttf);
+ }
+
+ .remontdiv{
+  font-family: Regular;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  font-size: 15px;
+ }
+
+ .remontin1{
+  padding: 34px;
+  width: 240px;
+  height: 170px;
+  background-color: #F5F5F5;
+ }
+
+ .remontin4{
+  padding: 34px;
+  width: 240px;
+  height: 170px;
+  background-color: #F5F5F5;
+ }
+
+.months{
+  display: flex;
+  justify-content: space-between;
+}
+
+.numm1{
+  margin: 50px 0 0 90px;
+  border-right:  1px solid black;
+}
+
+ .march p{
+   font-family: Regular;
+   font-size: 13px;
+   color: #4f4f4f;
+ }
+
+ .march  h4{
+  font-family: Regular;
+  font-size: 20px;
+  color: #000;
+ }
+
+ .march h5{
+  font-weight: 100;
+  color: #4F4F4F;
+  font-family: Regular;
+  font-size: 17px;
+ }
+
+ .march button{
+  padding: 12px 25px;
+  border: 1px solid black;
+  color: #000;
+  background: white;
+  font-weight: 100;
+  font-family: Regular;
+ }
+
+
+ .march2{
+  margin-top: 50px;
+ }
+
+ .march2 p{
+  font-family: Regular;
+  font-size: 13px;
+  color: #4f4f4f;
+}
+
+.march2  h4{
+ font-family: Regular;
+ font-size: 20px;
+ color: #000;
+}
+
+.march2 h5{
+ font-weight: 100;
+ color: #4F4F4F;
+ font-family: Regular;
+ font-size: 17px;
+}
+
+.march2 button{
+ padding: 12px 25px;
+ border: 1px solid black;
+ color: #000;
+ background: white;
+ font-weight: 100;
+ font-family: Regular;
+}
+
+
+.numm2{
+  margin: 50px 40px 0 0;
+}
+
+
+.januar p{
+  font-family: Regular;
+  font-size: 13px;
+  color: #4f4f4f;
+}
+
+.januar  h4{
+ font-family: Regular;
+ font-size: 20px;
+ color: #000;
+}
+
+.januar h5{
+ font-weight: 100;
+ color: #4F4F4F;
+ font-family: Regular;
+ font-size: 17px;
+}
+
+.januar button{
+ padding: 12px 25px;
+ border: 1px solid black;
+ color: #000;
+ background: white;
+ font-weight: 100;
+ font-family: Regular;
+}
+
+.januar2{
+  margin-top: 100px;
+ }
+
+.januar2 p{
+  font-family: Regular;
+  font-size: 13px;
+  color: #4f4f4f;
+}
+
+.januar2  h4{
+ font-family: Regular;
+ font-size: 20px;
+ color: #000;
+}
+
+.januar2 h5{
+ font-weight: 100;
+ color: #4F4F4F;
+ font-family: Regular;
+ font-size: 17px;
+}
+
+.januar2 button{
+ padding: 12px 25px;
+ border: 1px solid black;
+ color: #000;
+ background: white;
+ font-weight: 100;
+ font-family: Regular;
+}
+
+.rightbutton{
+  margin-right: 0;
+  position: absolute;
+  right: 40px;
+  width: 260px;
+  height: 60px;
+}
+
+.leftinfor{
+  margin: 50px 0 0 120px;
+}
+
+.thirds2{
+  display: flex;
+  margin-left: 0;
+  position: absolute;
+  left: 0;
+}
+
+.thirds2 img{
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
+
+.with2{
+  margin-left:2px;
+  width: 490px;
+}
+
+.with2 h4 {
+  font-family:Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 147.69%;
+  color: #333333;
+}
+
+.with2 h6{
+  margin: 20px 0 20px 0;
+  font-family:poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 147.69%;
+  color: #000;
+  
+}
+
+.with2 p{
+  font-family:poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 117.69%;
+  color: #000;
+}
+
+
+.how p{
+  margin-top: 110px;
+  font-family: Regular;
+  color: #4F4F4F;
+  line-height: 30px;
+}
+
+.how button{
+  padding: 12px 25px;
+  border: 1px solid black;
+  color: #000;
+  background: white;
+  font-weight: 100;
+  font-family: Regular;
+ }
