@@ -887,14 +887,32 @@ h2 {
 }
 
 .leftinfor {
-  margin: 50px 0 0 120px;
+  margin: 50px 0 0 100px;
+}
+
+.ofises {
+  display: flex;
+}
+
+.leftt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 450%;
+  padding-top: 0;
+  margin-left: 0;
+}
+
+.leftt img {
+  width: 40px;
+  height: 40px;
 }
 
 .thirds2 {
   display: flex;
-  margin-left: 0;
+  margin-left: 66px;
   position: absolute;
-  left: 0;
+  left: 20px;
 }
 
 .thirds2 img {
@@ -904,7 +922,7 @@ h2 {
 }
 
 .with2 {
-  margin-left: 2px;
+  margin-left: 15px;
   width: 490px;
 }
 
@@ -932,7 +950,7 @@ h2 {
   font-style: normal;
   font-weight: 800;
   font-size: 17px;
-  line-height: 117.69%;
+  line-height: 137.69%;
   color: #000;
 }
 
@@ -950,6 +968,219 @@ h2 {
   background: white;
   font-weight: 100;
   font-family: Regular;
+}
+
+.rightimg {
+  margin-top: 60px;
+}
+
+.rightimg img {
+  width: 650px;
+  height: 500px;
+}
+
+.rightttside img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 450%;
+  padding-top: 0;
+  margin-left: 0;
+}
+
+.botton {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botton img {
+  width: 190px;
+  height: 16px;
+}
+
+.afetrfooter {
+  margin-top: 40px;
+  display: flex;
+  background: #F5F5F5;
+  width: 950px;
+  height: 210px;
+}
+
+.afetrfooter p {
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 146.69%;
+  color: #000000;
+  margin-top: 70px;
+}
+
+.afetrfooter button {
+  border: none;
+  background: black;
+  width: 277px;
+  height: 72px;
+  font-family: Regular;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 42px;
+  text-align: center;
+  color: #F2F2F2;
+  margin-top: 70px;
+}
+
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-top: 80px;
+}
+
+.startimg {
+  background-repeat: no-repeat;
+  background-image: url(./images/Rectangle\ 56.png);
+  background-position: center;
+  background-size: 999px 700px;
+  margin-top: 25px;
+  width: 990px;
+  height: 699px;
+  margin-left: 0;
+  position: absolute;
+  left: 0;
+}
+
+.rightside img {
+  position: absolute;
+  left: 590px;
+  width: 133px;
+  height: 136px;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+.gidCommanda {
+  position: absolute;
+  left: 40px;
+  margin-top: 350px;
+}
+
+.gidCommanda h5 {
+  color: #faff09;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 146.19%;
+}
+
+.gidCommanda p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 196.19%;
+  color: #F2F2F2;
+}
+
+.gidCommanda2 {
+  position: absolute;
+  left: 280px;
+  margin-top: 350px;
+}
+
+.gidCommanda2 h5 {
+  color: #faff09;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 146.19%;
+}
+
+.gidCommanda2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 196.19%;
+  color: #F2F2F2;
+}
+
+.gidCommanda3 {
+  position: absolute;
+  left: 480px;
+  margin-top: 350px;
+}
+
+.gidCommanda3 h5 {
+  color: #faff09;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 146.19%;
+}
+
+.gidCommanda3 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 196.19%;
+  color: #F2F2F2;
+}
+
+.gidCommanda4 {
+  position: absolute;
+  left: 660px;
+  margin-top: 359px;
+}
+
+.gidCommanda4 h5 {
+  color: #faff09;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 146.19%;
+}
+
+.gidCommanda4 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 196.19%;
+  color: #F2F2F2;
+}
+
+.inter {
+  display: flex;
+  gap: 60px;
+  margin-top: 300px;
+  margin-left: 780px;
+}
+
+.inter img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.height {
+  margin-top: 50px;
+  margin-right: 40px;
+  height: 150px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.height img {
+  margin-top: 10px;
+  border: #000;
 }
 
 /*# sourceMappingURL=remont.css.map */
