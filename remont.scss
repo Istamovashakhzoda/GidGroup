@@ -285,8 +285,8 @@ background: #000000;
  color: white;
 }
 
-.filters button:hover{
-  cursor: pointer;
+.filters button a{
+ list-style: none;
 }
 
 @font-face {
