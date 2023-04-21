@@ -267,8 +267,9 @@ h2 {
   color: white;
 }
 
-.filters button:hover {
-  cursor: pointer;
+.filters button a {
+  text-decoration: none;
+  color: #F5F5F5;
 }
 
 @font-face {
