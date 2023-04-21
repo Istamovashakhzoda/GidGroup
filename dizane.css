@@ -121,4 +121,85 @@
   text-decoration: none;
 }
 
+.btnsmain {
+  width: 310px;
+  height: 50px;
+  background-color: #FAFF09;
+  border: none;
+  margin: 10px 0;
+  color: #000000;
+  font-weight: 600;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.informationSection {
+  display: flex;
+  width: 74%;
+  margin-left: 56px;
+}
+
+.insection img {
+  width: 242px;
+  height: 211px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Regular.ttf);
+}
+.insection p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4F4F4F;
+}
+
+.informationSection2 {
+  display: flex;
+  width: 90%;
+}
+
+.insection2 img {
+  width: 230px;
+  height: 211px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Regular.ttf);
+}
+.insection2 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4F4F4F;
+}
+
+.informationSection3 {
+  display: flex;
+  width: 90%;
+}
+
+.insection3 img {
+  width: 230px;
+  height: 211px;
+}
+
+.insection3 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4F4F4F;
+}
+
 /*# sourceMappingURL=dizane.css.map */
