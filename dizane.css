@@ -1,3 +1,124 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
+.mainImage__icons {
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+}
+.mainImage__icons img {
+  width: 30px;
+  height: 22px;
+  margin-left: 100px;
+  margin-top: 36px;
+}
+.mainImage .subst {
+  margin-top: 0;
+  margin-left: 0;
+  position: absolute;
+  left: 0;
+  right: 790px;
+  top: 21px;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Poppins/Roboto/Roboto-Bold.ttf);
+}
+.mainImage__icons h6 {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  right: 672px;
+  align-items: center;
+  font-family: Roboto;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 96px;
+}
+.mainImage__icons span {
+  font-size: 26px;
+}
+.mainImage .telep {
+  width: 29px;
+  height: 29px;
+  margin-right: 120px;
+}
+
+.glav {
+  margin: 6px 0 0 50px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  display: flex;
+  width: 100px;
+}
+
+.glav a {
+  text-decoration: none;
+  color: #828282;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.glav span {
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.btns {
+  display: flex;
+  text-align: center;
+  width: 440px;
+}
+
+.btn1 button {
+  width: 200px;
+  height: 58px;
+  background: #FFFFFF;
+  border: none;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.btn1 a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #4F4F4F;
+  text-decoration: none;
+}
+
+.btn2 button {
+  box-sizing: border-box;
+  width: 200px;
+  height: 58px;
+  border: none;
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.btn2 a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=dizane.css.map */
