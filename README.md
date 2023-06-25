@@ -1,2 +1,2 @@
 # GidGroup
-<h1><a href="https://freewebsittee.netlify.app/">GidGroup</a></h1>
+<h1><a href="https://gidgroupss.netlify.app/?">GidGroup</a></h1>
